@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> EVENT </h1>
+
+ <form>
+  <label for="fname"> name:</label><br>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <label for="start">start:</label><br>
+  <input type="text" id="start" name="start" ><br><br>
+  
+  <label for="dur">duration:</label><br>
+  <input type="text" id="dur" name="dur" ><br><br>
+  
+  <label for="end">end:</label><br>
+  <input type="text" id="end" name="end" ><br><br>
+  
+  <label for="loc">location:</label><br>
+  <input type="text" id="loc" name="loc" ><br><br>
+  
+  <label for="type">type:</label><br>
+  <input type="text" id="type" name="type" ><br><br>
+  
+  <label for="note">note:</label><br>
+  <input type="text" id="note" name="note" ><br><br>
+  
+ <input type="checkbox" id="concrete" name="concrete" value="concrete">
+  <label for="concrete"> Concrete</label><br>
+  
+  <input type="checkbox" id="allday" name="allday" value="allday">
+  <label for="allday"> All Day event</label><br>
+  
+  <input type="radio" id="Wrepeat" name="repeat" value="Wrepeat">
+  <label for="repeat"> repeat weekly</label><br>
+  <input type="radio" id="Mrepeat" name="repeat" value="Mrepeat">
+  <label for="Mrepeat"> repeat Monthly</label><br>
+  <input type="radio" id="Yrepeat" name="repeat" value="Yrepeat">
+  <label for="Yrepeat"> repeat Year</label><br>
+  
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,60 @@
+body{
+	font-family: Arial;
+}
+h1{
+	background-color: Blue;
+	height: 20px
+}
+h2{
+	background-color: Grey;
+	height: 10px;
+}
+.itilly{
+	font-style: italic;
+}
+.bordman{
+	border-radius: 5px;
+	border: solid 10px;
+	border: solid 5px red;
+	border: solid
+}
+.padded{
+	padding: 20px;
+	border: solid 5px;
+}
+.padma{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.Notbutter{
+	margin: 20px;
+	padding: 0 0 0 0;
+	border: solid;
+	text-align: center;
+}
+.curvboi{
+	border-radius: 20px 0 20px 0;
+}
+.trans{
+	transform: rotate(90deg);
+}
+.filt{
+	filter: blur(2px);
+	filter: grayscale(0%);
+	filter: opacity(50%);
+	filter: brightness(100%);
+	filter: saturate(50%);
+	filter: contrast(10%);
+	
+}
+.gradi{
+	background: linear-gradiant(90deg, blue, red);
+}
+
+.container{
+	border:solid;
+	display: flex;
+}
+
+
+
