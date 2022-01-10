@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Order your IT-Shirt</title>
+	<!-- Name -->
+</head>
+<body>
+<form method="get" action="process_order.php">
+  <fieldset>
+		<legend>IT-Shirt Order Form</legend>
+    <p>Enter your name:<br>
+		<input type="text" name="name">
+	</p>
+	<p>
+		Enter your delivery address:<br>
+		<input type="text" name="address">
+	</p>
+	<p>Size:<br>
+		<input type="radio" name="size" value="S">Small<br>
+		<input type="radio" name="size" value="M">Medium<br>
+		<input type="radio" name="size" value="L">Large<br>
+		<input type="radio" name="size" value="XL">Extra Large
+		
+	</p>
+	<p>Quantity:<br>
+		<select name="qty">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+	</p>
+	<p>
+		Check box for expedited shipping: 
+		<input type="checkbox" name="rush">
+	</p>
+    <p><input type="submit" name="submit" value="Order!"></p>
+  </fieldset>
+</form>
+</body>
+</html>
+
